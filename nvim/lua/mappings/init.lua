@@ -41,5 +41,5 @@ map("n", "<Space>bl", ":BufferOrderByLanguage<CR>", opts)
 map("n", "<Leader>ff", ":Telescope find_files<CR>", opts)
 map("n", "<Leader>fg", ":Telescope live_grep<CR>", opts)
 -- oscyank mappings
-map("n", "<Leader>c", ":OSCYank<CR>", opts)
+map("v", "<Leader>c", ":OSCYank<CR>", opts)
 map("n", "<Leader>o", "<Plug>OSCYank", opts)

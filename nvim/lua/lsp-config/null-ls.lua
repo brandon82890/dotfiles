@@ -6,7 +6,7 @@ local sources = {
 	formatting.eslint,
 	formatting.autopep8,
 	formatting.stylua,
-	formatting.clang_format
+	--formatting.clang_format,
 }
 
 null_ls.setup({

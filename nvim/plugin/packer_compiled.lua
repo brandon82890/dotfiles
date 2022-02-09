@@ -112,6 +112,11 @@ _G.packer_plugins = {
     path = "/home/brandon/.config/local/share/nvim/site/pack/packer/start/null-ls.nvim",
     url = "https://github.com/jose-elias-alvarez/null-ls.nvim"
   },
+  ["nvim-autopairs"] = {
+    loaded = true,
+    path = "/home/brandon/.config/local/share/nvim/site/pack/packer/start/nvim-autopairs",
+    url = "https://github.com/windwp/nvim-autopairs"
+  },
   ["nvim-cmp"] = {
     loaded = true,
     path = "/home/brandon/.config/local/share/nvim/site/pack/packer/start/nvim-cmp",
@@ -162,6 +167,11 @@ _G.packer_plugins = {
     path = "/home/brandon/.config/local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
+  ["sqlite.lua"] = {
+    loaded = true,
+    path = "/home/brandon/.config/local/share/nvim/site/pack/packer/start/sqlite.lua",
+    url = "https://github.com/tami5/sqlite.lua"
+  },
   ["telescope-fzf-native.nvim"] = {
     loaded = true,
     path = "/home/brandon/.config/local/share/nvim/site/pack/packer/start/telescope-fzf-native.nvim",
@@ -181,11 +191,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/brandon/.config/local/share/nvim/site/pack/packer/start/vim-markdown",
     url = "https://github.com/preservim/vim-markdown"
-  },
-  ["vim-oscyank"] = {
-    loaded = true,
-    path = "/home/brandon/.config/local/share/nvim/site/pack/packer/start/vim-oscyank",
-    url = "https://github.com/ojroques/vim-oscyank"
   },
   ["vim-tmux-navigator"] = {
     loaded = true,
