@@ -2,11 +2,25 @@
 local luasnip = require("luasnip")
 local lspkind = require("lspkind")
 local cmp_autopairs = require("nvim-autopairs.completion.cmp")
-
+local compare = require("cmp.config.compare")
 -- nvim-cmp setup
 local cmp = require("cmp")
 cmp.event:on("confirm_done", cmp_autopairs.on_confirm_done({ map_char = { tex = " " } }))
 cmp.setup({
+	sorting = {
+		priority_weight = 2,
+		comparators = {
+			require("cmp_tabnine.compare"),
+			compare.offset,
+			compare.exact,
+			compare.score,
+			compare.recently_used,
+			compare.kind,
+			compare.sort_text,
+			compare.length,
+			compare.order,
+		},
+	},
 	snippet = {
 		expand = function(args)
 			require("luasnip").lsp_expand(args.body)
@@ -45,6 +59,7 @@ cmp.setup({
 	sources = {
 		{ name = "nvim_lsp" },
 		{ name = "luasnip" },
+		{ name = "cmp_tabnine" },
 	},
 	formatting = {
 		format = lspkind.cmp_format({

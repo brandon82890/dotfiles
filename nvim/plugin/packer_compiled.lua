@@ -84,10 +84,20 @@ _G.packer_plugins = {
     path = "/home/brandon/.config/local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
+  ["cmp-tabnine"] = {
+    loaded = true,
+    path = "/home/brandon/.config/local/share/nvim/site/pack/packer/start/cmp-tabnine",
+    url = "https://github.com/tzachar/cmp-tabnine"
+  },
   cmp_luasnip = {
     loaded = true,
     path = "/home/brandon/.config/local/share/nvim/site/pack/packer/start/cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
+  },
+  gruvbox = {
+    loaded = true,
+    path = "/home/brandon/.config/local/share/nvim/site/pack/packer/start/gruvbox",
+    url = "https://github.com/morhetz/gruvbox"
   },
   ["lspkind-nvim"] = {
     loaded = true,
@@ -106,6 +116,11 @@ _G.packer_plugins = {
     only_cond = false,
     path = "/home/brandon/.config/local/share/nvim/site/pack/packer/opt/markdown-preview.nvim",
     url = "https://github.com/iamcco/markdown-preview.nvim"
+  },
+  ["monokai.nvim"] = {
+    loaded = true,
+    path = "/home/brandon/.config/local/share/nvim/site/pack/packer/start/monokai.nvim",
+    url = "https://github.com/tanvirtin/monokai.nvim"
   },
   ["null-ls.nvim"] = {
     loaded = true,

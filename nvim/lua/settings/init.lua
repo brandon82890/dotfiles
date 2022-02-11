@@ -26,3 +26,5 @@ set.cursorline = true
 
 set.hidden = true
 set.completeopt = "menuone,noselect"
+
+vim.cmd([[colorscheme gruvbox]])
